@@ -131,10 +131,3 @@ jobs:
     inputs:
       PathtoPublish: AzureResourceGroupDeployment
       ArtifactName: arm
-
-- task: UseDotNet@2
-  displayName: 'Use .NET Core sdk'
-  inputs:
-    packageType: 'sdk'
-    version: '6.0.x'
-    includePreviewVersions: true
